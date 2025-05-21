@@ -62,14 +62,7 @@ const Card = (props) => {
             )}
             {!props.user.blog && checkInfo(props.user.blog)}
           </li>
-          {/* <li>
-            <img src="./images/icon-twitter.svg" alt="" />
-            {checkInfo(props.user.social)}
-          </li>
-          <li>
-            <img src="./images/icon-company.svg" alt="" />
-            {checkInfo(props.user.company)}
-          </li> */}
+          
         </ul>
       </div>
     </div>
